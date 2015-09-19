@@ -1,229 +1,215 @@
 <!doctype html>
 <html>
-  <head>
-    <!DOCTYPE html>
-<html>
-	<head>
-		<title>chart created with amCharts | amCharts</title>
-		<meta name="description" content="chart created using amCharts live editor" />
-
-		<!-- amCharts javascript sources -->
-		<script type="text/javascript" src="http://www.amcharts.com/lib/3/amcharts.js"></script>
-		<script type="text/javascript" src="http://www.amcharts.com/lib/3/serial.js"></script>
-
-		<!-- amCharts javascript code -->
-		<script type="text/javascript">
-			AmCharts.makeChart("chartdiv",
-				{
-					"type": "serial",
-					"categoryField": "HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)",
-					"startDuration": 1,
-					"color": "#D64646",
-					"fontSize": 9,
-					"categoryAxis": {
-						"gridPosition": "start"
-					},
-					"trendLines": [],
-					"graphs": [
-						{
-							"balloonText": "[[title]] of [[category]]:[[value]]",
-							"fillAlphas": 1,
-							"id": "AmGraph-1",
-							"title": "graph 1",
-							"type": "column",
-							"valueField": "column-1"
-						},
-						{
-							"balloonText": "[[title]] of [[category]]:[[value]]",
-							"fillAlphas": 1,
-							"id": "AmGraph-2",
-							"title": "graph 2",
-							"type": "column",
-							"valueField": "column-2"
-						},
-						{
-							"id": "AmGraph-3",
-							"title": "graph 3"
-						},
-						{
-							"id": "AmGraph-4",
-							"title": "graph 4"
-						}
-					],
-					"guides": [],
-					"valueAxes": [
-						{
-							"id": "ValueAxis-1",
-							"title": "Axis title"
-						}
-					],
-					"allLabels": [],
-					"balloon": {},
-					"legend": {
-						"useGraphSettings": true
-					},
-					"titles": [
-						{
-							"id": "Title-1",
-							"size": 15,
-							"text": "Chart Title"
-						}
-					],
-					"dataProvider": [
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Acto terrorista / Atentados / Combates / Enfrentamientos / Hostigamientos",
-							"MARULANDA": "21",
-							"MANZANARES": "12",
-							"PENSILVANIA": "551",
-							"MARQUETALIA": "7",
-							"SAMANÁ": "78",
-							"VICTORIA": "3",
-							"NORCASIA": "111",
-							"LA DORADA": "70",
-							"TOTAL": "853"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Amenaza",
-							"MARULANDA": "148",
-							"MANZANARES": "15",
-							"PENSILVANIA": "853",
-							"MARQUETALIA": "32",
-							"SAMANÁ": "269",
-							"VICTORIA": "53",
-							"NORCASIA": "482",
-							"LA DORADA": "133",
-							"TOTAL": "1,985"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Delitos contra la libertad y la integridad sexual en desarrollo del conflicto armado",
-							"MARULANDA": "1",
-							"MANZANARES": "1",
-							"PENSILVANIA": "9",
-							"SAMANÁ": "18",
-							"VICTORIA": "7",
-							"NORCASIA": "3",
-							"LA DORADA": "10",
-							"TOTAL": "49"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Desaparición forzada",
-							"MARULANDA": "11",
-							"MANZANARES": "54",
-							"PENSILVANIA": "119",
-							"MARQUETALIA": "40",
-							"SAMANÁ": "251",
-							"VICTORIA": "66",
-							"NORCASIA": "46",
-							"LA DORADA": "676",
-							"TOTAL": "1,263"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Desplazamiento forzado",
-							"MARULANDA": "656",
-							"MANZANARES": "1,507",
-							"PENSILVANIA": "8,014",
-							"MARQUETALIA": "2,719",
-							"SAMANÁ": "21,343",
-							"VICTORIA": "854",
-							"NORCASIA": "2,406",
-							"LA DORADA": "6,713",
-							"TOTAL": "44,212"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Homicidio",
-							"MARULANDA": "67",
-							"MANZANARES": "400",
-							"PENSILVANIA": "794",
-							"MARQUETALIA": "297",
-							"SAMANÁ": "1,098",
-							"VICTORIA": "144",
-							"NORCASIA": "173",
-							"LA DORADA": "2,461",
-							"TOTAL": "5,434"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Minas antipersonal, munición sin explotar y artefacto explosivo improvisado",
-							"MANZANARES": "12",
-							"PENSILVANIA": "6",
-							"MARQUETALIA": "5",
-							"SAMANÁ": "29",
-							"VICTORIA": "6",
-							"NORCASIA": "2",
-							"LA DORADA": "32",
-							"TOTAL": "92"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Secuestro",
-							"MARULANDA": "3",
-							"MANZANARES": "5",
-							"PENSILVANIA": "25",
-							"MARQUETALIA": "3",
-							"SAMANÁ": "100",
-							"VICTORIA": "14",
-							"NORCASIA": "5",
-							"LA DORADA": "79",
-							"TOTAL": "234"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Tortura",
-							"MARULANDA": "1",
-							"PENSILVANIA": "25",
-							"MARQUETALIA": "4",
-							"SAMANÁ": "10",
-							"VICTORIA": "1",
-							"NORCASIA": "1",
-							"LA DORADA": "11",
-							"TOTAL": "53"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Vinculación de niños niñas y adolescentes a actividades relacionadas con grupos armados",
-							"MARULANDA": "1",
-							"MANZANARES": "5",
-							"PENSILVANIA": "8",
-							"MARQUETALIA": "2",
-							"SAMANÁ": "15",
-							"VICTORIA": "2",
-							"NORCASIA": "2",
-							"LA DORADA": "9",
-							"TOTAL": "44"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Abandono o despojo forzado de tierras",
-							"NORCASIA": "1",
-							"TOTAL": "1"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Pérdida de bienes muebles o inmuebles",
-							"MARULANDA": "14",
-							"MANZANARES": "10",
-							"PENSILVANIA": "392",
-							"MARQUETALIA": "4",
-							"SAMANÁ": "129",
-							"VICTORIA": "5",
-							"NORCASIA": "20",
-							"LA DORADA": "35",
-							"TOTAL": "609"
-						},
-						{
-							"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "TOTAL",
-							"MARULANDA": "923",
-							"MANZANARES": "2,021",
-							"PENSILVANIA": "10,796",
-							"MARQUETALIA": "3,113",
-							"SAMANÁ": "23,340",
-							"VICTORIA": "1,155",
-							"NORCASIA": "3,252",
-							"LA DORADA": "10,229",
-							"TOTAL": "54,829"
-						}
-					]
-				}
-			);
-		</script>
-	</head>
-	<body>
-		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #FFFFFF;" ></div>
-	</body>
+  {
+	"type": "serial",
+	"categoryField": "HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)",
+	"startDuration": 1,
+	"color": "#D64646",
+	"fontSize": 9,
+	"categoryAxis": {
+		"gridPosition": "start"
+	},
+	"trendLines": [],
+	"graphs": [
+		{
+			"balloonText": "[[title]] of [[category]]:[[value]]",
+			"fillAlphas": 1,
+			"id": "AmGraph-1",
+			"title": "graph 1",
+			"type": "column",
+			"valueField": "column-1"
+		},
+		{
+			"balloonText": "[[title]] of [[category]]:[[value]]",
+			"fillAlphas": 1,
+			"id": "AmGraph-2",
+			"title": "graph 2",
+			"type": "column",
+			"valueField": "column-2"
+		},
+		{
+			"id": "AmGraph-3",
+			"title": "graph 3"
+		},
+		{
+			"id": "AmGraph-4",
+			"title": "graph 4"
+		}
+	],
+	"guides": [],
+	"valueAxes": [
+		{
+			"id": "ValueAxis-1",
+			"title": "Axis title"
+		}
+	],
+	"allLabels": [],
+	"balloon": {},
+	"legend": {
+		"useGraphSettings": true
+	},
+	"titles": [
+		{
+			"id": "Title-1",
+			"size": 15,
+			"text": "Chart Title"
+		}
+	],
+	"dataProvider": [
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Acto terrorista / Atentados / Combates / Enfrentamientos / Hostigamientos",
+			"MARULANDA": "21",
+			"MANZANARES": "12",
+			"PENSILVANIA": "551",
+			"MARQUETALIA": "7",
+			"SAMANÁ": "78",
+			"VICTORIA": "3",
+			"NORCASIA": "111",
+			"LA DORADA": "70",
+			"TOTAL": "853"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Amenaza",
+			"MARULANDA": "148",
+			"MANZANARES": "15",
+			"PENSILVANIA": "853",
+			"MARQUETALIA": "32",
+			"SAMANÁ": "269",
+			"VICTORIA": "53",
+			"NORCASIA": "482",
+			"LA DORADA": "133",
+			"TOTAL": "1,985"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Delitos contra la libertad y la integridad sexual en desarrollo del conflicto armado",
+			"MARULANDA": "1",
+			"MANZANARES": "1",
+			"PENSILVANIA": "9",
+			"SAMANÁ": "18",
+			"VICTORIA": "7",
+			"NORCASIA": "3",
+			"LA DORADA": "10",
+			"TOTAL": "49"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Desaparición forzada",
+			"MARULANDA": "11",
+			"MANZANARES": "54",
+			"PENSILVANIA": "119",
+			"MARQUETALIA": "40",
+			"SAMANÁ": "251",
+			"VICTORIA": "66",
+			"NORCASIA": "46",
+			"LA DORADA": "676",
+			"TOTAL": "1,263"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Desplazamiento forzado",
+			"MARULANDA": "656",
+			"MANZANARES": "1,507",
+			"PENSILVANIA": "8,014",
+			"MARQUETALIA": "2,719",
+			"SAMANÁ": "21,343",
+			"VICTORIA": "854",
+			"NORCASIA": "2,406",
+			"LA DORADA": "6,713",
+			"TOTAL": "44,212"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Homicidio",
+			"MARULANDA": "67",
+			"MANZANARES": "400",
+			"PENSILVANIA": "794",
+			"MARQUETALIA": "297",
+			"SAMANÁ": "1,098",
+			"VICTORIA": "144",
+			"NORCASIA": "173",
+			"LA DORADA": "2,461",
+			"TOTAL": "5,434"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Minas antipersonal, munición sin explotar y artefacto explosivo improvisado",
+			"MANZANARES": "12",
+			"PENSILVANIA": "6",
+			"MARQUETALIA": "5",
+			"SAMANÁ": "29",
+			"VICTORIA": "6",
+			"NORCASIA": "2",
+			"LA DORADA": "32",
+			"TOTAL": "92"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Secuestro",
+			"MARULANDA": "3",
+			"MANZANARES": "5",
+			"PENSILVANIA": "25",
+			"MARQUETALIA": "3",
+			"SAMANÁ": "100",
+			"VICTORIA": "14",
+			"NORCASIA": "5",
+			"LA DORADA": "79",
+			"TOTAL": "234"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Tortura",
+			"MARULANDA": "1",
+			"PENSILVANIA": "25",
+			"MARQUETALIA": "4",
+			"SAMANÁ": "10",
+			"VICTORIA": "1",
+			"NORCASIA": "1",
+			"LA DORADA": "11",
+			"TOTAL": "53"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Vinculación de niños niñas y adolescentes a actividades relacionadas con grupos armados",
+			"MARULANDA": "1",
+			"MANZANARES": "5",
+			"PENSILVANIA": "8",
+			"MARQUETALIA": "2",
+			"SAMANÁ": "15",
+			"VICTORIA": "2",
+			"NORCASIA": "2",
+			"LA DORADA": "9",
+			"TOTAL": "44"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Abandono o despojo forzado de tierras",
+			"NORCASIA": "1",
+			"TOTAL": "1"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "Pérdida de bienes muebles o inmuebles",
+			"MARULANDA": "14",
+			"MANZANARES": "10",
+			"PENSILVANIA": "392",
+			"MARQUETALIA": "4",
+			"SAMANÁ": "129",
+			"VICTORIA": "5",
+			"NORCASIA": "20",
+			"LA DORADA": "35",
+			"TOTAL": "609"
+		},
+		{
+			"HECHOS VICTIMIZANTES POR MUNICIPIOS (Oriente de Caldas)": "TOTAL",
+			"MARULANDA": "923",
+			"MANZANARES": "2,021",
+			"PENSILVANIA": "10,796",
+			"MARQUETALIA": "3,113",
+			"SAMANÁ": "23,340",
+			"VICTORIA": "1,155",
+			"NORCASIA": "3,252",
+			"LA DORADA": "10,229",
+			"TOTAL": "54,829"
+		}
+	]
+}
+  
+  
+  
+  
+  
+  
 </html>
     <span class="soundcite" data-id="222911454" data-start="0" data-end="20500" data-plays="1">listen</span>
     <meta charset="utf-8">
